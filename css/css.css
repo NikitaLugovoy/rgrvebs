@@ -1,0 +1,168 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 36px 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /*Шрифт*/
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    text-align: center
+}
+
+
+header {
+    background-color: rgb(25, 89, 110);
+    padding: 80px 0;
+    position: relative;
+}
+
+
+
+.nav-link {
+    font-size: 24px;
+    color: #333;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(25, 89, 110);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+footer p {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.pevss {
+    /*Стиль для второй гиперссылки*/
+    background-color: red;
+    /*Цвет фона*/
+    box-shadow: 0 5px 0 darkred;
+    /*Тень с заданными размерами по осям и цветом*/
+    color: white;
+    /*Цвет букв*/
+    padding: 1em 1.5em;
+    /*Отступы вокруг*/
+    position: relative;
+    /*Положение элемента устанавливается относительно его исходного места*/
+    text-decoration: none;
+    /*Убирается подчёркивание*/
+    text-transform: uppercase;
+    /*Верхний регимтр всех символов*/
+}
+
+.pevss:hover {
+    /*Стиль элемента при ниведении на него*/
+    background-color: #ce0606;
+    /*Цвет фона*/
+}
+
+.pevss:active {
+    /*Стиль элемента при нажатии*/
+    box-shadow: none;
+    /*Тени нет*/
+    top: 5px;
+    /*Отступ от верха*/
+    /*Создаётся эффект нажания, уходит тень и элемент опускается*/
+}
+
+.vtorss {
+    /*Стиль для третьей гиперссылки*/
+    border-radius: 25px;
+    /*Закругление рамки*/
+    color: #CEA640;
+    /*Цвет букв*/
+    background: #FFF79A;
+    /*Цвет фона*/
+    border-bottom: 5px solid #E1B442;
+    /*Толщина стиль и цвет границы внизу*/
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    /*тень*/
+}
+.vtorss:hover {
+    /*Стиль элемента при наведении на него*/
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    /*тень элемента*/
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    /*Тень текста*/
+}
+
+.trss {
+    /*Стиль для четвёртой гиперссылки*/
+    color: #45A0A4;
+    /*Цвет букв*/
+    background: linear-gradient(to right, #E3612C 0, #E3612C 33.3%, #FCCE30 33.3%, #FCCE30 66.6%, #58554B 66.6%, #58554B) bottom no-repeat;
+    /*Градиент*/
+    background-size: 70% 5px;
+    /*задаёт размеры линии*/
+    text-decoration: none;
+    /*убрать подчёркивание*/
+}
+.trss:hover {
+    /*Стиль элемента при наведении на него*/
+    background-size: 100% 5px;
+    /*задаёт размеры линии, становится шире*/
+    text-decoration: none;
+    /*убрать подчёркивание*/
+}
+
+
+.chetss {
+    /*Стиль для пятой гиперссылки*/
+    border-radius: 10px;
+    /*Закругление рамки*/
+    color: #598428;
+    /*Цвет букв*/
+    background: linear-gradient(20deg, #C3D600, #C3D600 50%, #A5B400 50%);
+    /*Градиент*/
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    /*тень*/
+    text-decoration: none;
+    /*убрать подчёркивание*/
+}
+.chetss:hover {
+    /*Стиль элемента при наведении на него*/
+    text-decoration: none;
+    /*убрать подчёркивание*/ 
+    background: linear-gradient(-160deg, #C3D600, #C3D600 50%, #A5B400 50%);
+    /*Градиент*/
+}
+
+.pyatss{
+    /*Стиль для шестой гиперссылки*/
+    border: 1px solid red;
+    /* Рамка*/
+    color: red;
+    /* Цвет букв*/
+    border-width: 3px; /* толщина 3px */
+	border-style: dotted; /* в виде точек */
+}
+
+.pyatss:hover {
+    border: 1px solid rgb(25, 158, 21);
+    /* рамка*/
+    color: rgb(25, 158, 21);
+    /* Цвет букв*/
+    border-width: 6px; /* толщина 3px */
+	border-style: dashed; /* в виде полосок */
+}
+
